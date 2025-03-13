@@ -1,8 +1,3 @@
-for ((i = 5; i >= 1; i--)); do
-    sleep 1
-    echo "Install Parameter $i. Tekan ctrl+c untuk membatalkan"
-done
-
 mkdir /root/db
 cp config.bson /root/db
 cp config.metadata.json /root/db
